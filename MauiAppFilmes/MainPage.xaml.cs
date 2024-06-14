@@ -35,6 +35,30 @@ namespace MauiAppFilmes
         {
             await Navigation.PushAsync(new Categorias.terror());
         }
+        async private void btn40_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.animacao());
+        }
+        async private void btn50_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.Comedia());
+        }
+        async private void btn21_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.Romance());
+        }
+        async private void btn31_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.Documentario());
+        }
+        async private void btn41_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.Guerra());
+        }
+        async private void btn51_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new Categorias.Suspense());
+        }
     }
 
 }

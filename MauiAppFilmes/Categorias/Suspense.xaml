@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppFilmes.Categorias.Suspense"
+             Title="Suspense">
+    <ScrollView>
+        <Grid RowDefinitions="*,*" ColumnDefinitions="*,*"
+VerticalOptions="FillAndExpand" Padding="5">
+
+            <ImageButton Grid.Row="0" Grid.Column="0"
+                  Source="host.jpg"
+                  HorizontalOptions="CenterAndExpand"
+                  VerticalOptions="CenterAndExpand">
+            </ImageButton>
+
+            <ImageButton Grid.Row="0" Grid.Column="1"
+                  Source="abigail.jpg"
+                  HorizontalOptions="CenterAndExpand"
+                  VerticalOptions="CenterAndExpand">
+            </ImageButton>
+
+            <ImageButton Grid.Row="1" Grid.Column="0"
+                  Source="civil.jpg"
+                  HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="CenterAndExpand">
+            </ImageButton>
+
+            <ImageButton Grid.Row="1" Grid.Column="1"
+                     Source="mal.jpg"
+                     HorizontalOptions="CenterAndExpand"
+                     VerticalOptions="CenterAndExpand">
+            </ImageButton>
+
+        </Grid>
+
+
+    </ScrollView>
+</ContentPage>

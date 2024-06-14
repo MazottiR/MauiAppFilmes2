@@ -30,17 +30,23 @@
                     Clicked="btn20_Clicked"/>
             <Button x:Name="btn30" Grid.Row="3" Grid.Column="0" Text="Infantil"
                     Clicked="btn30_Clicked"/>
-            <Button x:Name="btn40" Grid.Row="4" Grid.Column="0" Text="Animação"/>
-            <Button x:Name="btn50" Grid.Row="5" Grid.Column="0" Text="Comédia"/>
+            <Button x:Name="btn40" Grid.Row="4" Grid.Column="0" Text="Animação"
+                    Clicked="btn40_Clicked"/>
+            <Button x:Name="btn50" Grid.Row="5" Grid.Column="0" Text="Comédia"
+                    Clicked="btn50_Clicked"/>
 
             <Button x:Name="btn01" Grid.Row="0" Grid.Column="1" Text="Nacional"
                     Clicked="btn01_Clicked"/>
             <Button x:Name="btn11" Grid.Row="1" Grid.Column="1" Text="Terror"
                     Clicked="btn11_Clicked"/>
-            <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Text="Romance"/>
-            <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Text="Documentário"/>
-            <Button x:Name="btn41" Grid.Row="4" Grid.Column="1" Text="Guerra"/>
-            <Button x:Name="btn51" Grid.Row="5" Grid.Column="1" Text="Suspense"/>
+            <Button x:Name="btn21" Grid.Row="2" Grid.Column="1" Text="Romance"
+                    Clicked="btn21_Clicked"/>
+            <Button x:Name="btn31" Grid.Row="3" Grid.Column="1" Text="Documentário"
+                    Clicked="btn31_Clicked"/>
+            <Button x:Name="btn41" Grid.Row="4" Grid.Column="1" Text="Guerra"
+                    Clicked="btn41_Clicked"/>
+            <Button x:Name="btn51" Grid.Row="5" Grid.Column="1" Text="Suspense"
+                    Clicked="btn51_Clicked"/>
             
         </Grid>
         
